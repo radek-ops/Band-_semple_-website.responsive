@@ -8,7 +8,6 @@ body {
 
 }
 
-
 .aot {
    height: 100vh;
    background-image: url("img/header.jpg");
@@ -110,9 +109,9 @@ h1 {
    justify-content: space-evenly;
    background-color: black;
    font-family: "PT Sans", sans-serif;
-   padding: 116px 30px 116px 30px ;
+   padding: 116px 30px 116px 30px;
    gap: 30px;
-   
+
 }
 
 .quicklink {
@@ -135,14 +134,14 @@ h1 {
 
 
 .quicklink_font {
-   display:flex;
+   display: flex;
    justify-content: flex-start;
    margin-bottom: 8px;
    color: #AF8648;
    font-size: 24px;
    font-family: "PT Sans", sans-serif;
    font-weight: 600;
-  
+
 
 }
 
@@ -185,7 +184,7 @@ h2 {
    margin-block-start: 0em;
 }
 
-.festival_fontsize{
+.festival_fontsize {
 
    font-size: 18px;
 }
@@ -198,7 +197,7 @@ h2 {
    width: 1px;
    height: 200px;
    justify-content: space-around;
-   
+
 }
 
 .section_ticket {
@@ -216,7 +215,7 @@ h2 {
 }
 
 .text {
-   display:flex;
+   display: flex;
    text-align: center;
    color: #AF8648;
    font-weight: bold;
@@ -251,18 +250,18 @@ footer {
 .total_footer {
    height: 250px;
    display: flex;
-   justify-content:space-between;
+   justify-content: space-between;
    align-items: center;
    background-color: black;
    padding-left: 72px;
    padding-right: 72px;
-   
+
 }
 
 .footer_text {
    display: flex;
    background-color: black;
-   
+
    font-size: 20px;
 
 }
@@ -278,9 +277,9 @@ footer {
 .social_input_submit_total {
 
    display: flex;
-    justify-content: center;
-    flex-direction: column;
-   
+   justify-content: center;
+   flex-direction: column;
+
 }
 
 .social_logos {
@@ -299,7 +298,7 @@ footer {
 .input_submit {
 
    display: flex;
-   align-items:flex-start;
+   align-items: flex-start;
    justify-content: center;
 
 
@@ -314,10 +313,10 @@ footer {
 
 input {
    display: flex;
-   justify-content:center ;
+   justify-content: center;
    width: 100%;
    height: 33px;
-   
+
 }
 
 input::placeholder {
@@ -342,164 +341,167 @@ input::placeholder {
       font-size: 20px;
    }
 
-  .section_quicklinks {
+   .section_quicklinks {
 
-   flex-direction: column;
-   align-items: center;
-   gap: 80px;
-      
- }
+      flex-direction: column;
+      align-items: center;
+      gap: 80px;
+
+   }
 
 }
 
 @media(max-width:950px) {
-   
- .section_festival_and_ticket {
-   display: flex;
-   justify-content:center;
-   align-items: center;
-   flex-direction: column;
-   color: white;
-   margin-left: 0;
-   height: 5%;
-   background-color: #272727;
-}
 
-h2 {
-   margin-block-start: 0em;
-   font-size: 15px;
-}
+   .section_festival_and_ticket {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: white;
+      margin-left: 0;
+      height: 5%;
+      background-color: #272727;
+   }
 
-.p {
-   display: flex;
-   
-   align-items: flex-end;
-   font-size: 15px;
-}
+   h2 {
+      margin-block-start: 0em;
+      font-size: 15px;
+   }
 
+   .p {
+      display: flex;
 
-.dividing_line {
-   display: none;
-   
-}
-
-.section_video {
-   
-   height: 250px;
-   
-}
+      align-items: flex-end;
+      font-size: 15px;
+   }
 
 
-.total_footer {
-    height: 400px;
-    flex-direction: column;
-    align-items: center;
-    justify-content:center ;
-}
+   .dividing_line {
+      display: none;
 
-.footer_img_logs {
-   display: flex;
-   width: 30px;
-   height: 30px;
-}
+   }
+
+   .section_video {
+
+      height: 250px;
+
+   }
 
 
+   .total_footer {
+      height: 400px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
 
-.footer_text {
-   
-   display: flex;
-   background-color: black;
-   text-align: center;
-   font-size: 20px;
-   margin-bottom: 20px;
-
-}
+   .footer_img_logs {
+      display: flex;
+      width: 30px;
+      height: 30px;
+   }
 
 
 
+   .footer_text {
 
-.social_logos {
-  
-   display: flex;
-   justify-content: center;
-   gap: 40px;
-   margin-bottom: 15px
-}
+      display: flex;
+      background-color: black;
+      text-align: center;
+      font-size: 20px;
+      margin-bottom: 20px;
 
-.social_input_submit_total {
-   
- width: 100%;
-   display: flex;
-     display: flex;
-     align-items: center;
-     justify-content: start;
-   
-}
+   }
 
 
-}
-
-@media(max-width:600px){
 
 
-.input_submit {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   
-}
+   .social_logos {
 
-.upcoming_link, .button_margin {
-    margin: 40px;
-   display: flex;
-  
-   align-items: center;
-}
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-bottom: 15px
+   }
 
-}
+   .social_input_submit_total {
 
-@media(max-width:390px){
+      width: 100%;
+      display: flex;
+      display: flex;
+      align-items: center;
+      justify-content: start;
 
-h2 {
-   margin-block-start: 0em;
-   font-size: 14px;
-}
-
-.festival_fontsize{
-
-   font-size: 13px;
-}
-.span27sep20{
-
-font-size: 12px;
-}
-
-header img {
-
-   width: 50px;
-}
+   }
 
 
 }
 
-@media(max-width:320px){
+@media(max-width:600px) {
 
-header img {
 
-   width: 40px;
+   .input_submit {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+   }
+
+   .upcoming_link,
+   .button_margin {
+      margin: 40px;
+      display: flex;
+
+      align-items: center;
+   }
+
 }
 
-}
-@media(max-width:300px){
+@media(max-width:390px) {
 
-header img {
-  
-   width: 23px;
+   h2 {
+      margin-block-start: 0em;
+      font-size: 14px;
+   }
+
+   .festival_fontsize {
+
+      font-size: 13px;
+   }
+
+   .span27sep20 {
+
+      font-size: 12px;
+   }
+
+   header img {
+
+      width: 50px;
+   }
+
+
 }
 
-.haeder_logo{
+@media(max-width:320px) {
 
-   display: none;
+   header img {
+
+      width: 40px;
+   }
+
 }
+
+@media(max-width:300px) {
+
+   header img {
+
+      width: 23px;
+   }
+
+   .haeder_logo {
+
+      display: none;
+   }
 
 }
